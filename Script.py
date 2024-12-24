@@ -254,7 +254,7 @@ Nᴀᴍᴇ - {}"""
 <b>Query: {qurey}
 
 IMDb Data:
-
+मूवी का पोस्टर गलत भी हो सकता है ❌ कृपया नाम चेक करे ✅ please ➠ 𝗝𝗼𝗶𝗻 : @New_movie_bazaar7
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
