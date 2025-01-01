@@ -103,7 +103,7 @@ ShemarooMe, EpicOn Etc. all OTT Movies and Webseries available
 
 👨‍💻Contact Us @mimam_officialx
 
-⚠️𝗦𝗲𝗻𝗱 𝗦𝗦 𝗔𝗳𝘁𝗲𝗿 𝗣𝗮𝘆𝗺𝗲𝗻𝘁⚠️ 𝗔𝗳𝘁𝗲𝗿 𝘀𝗲𝗻𝗱𝗶𝗻𝗴 𝗮 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁 𝗽𝗹𝗲𝗮𝘀𝗲 𝗴𝗶𝘃𝗲 𝘂𝘀 𝘀𝗼𝗺𝗲 𝘁𝗶𝗺𝗲 𝘁𝗼 𝗮𝗱𝗱 𝘆𝗼𝘂 𝗶𝗻 𝘁𝗵𝗲 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 𝘃𝗲𝗿𝘀𝗶𝗼𝗻｡｡</b>')
+⚠️𝗦𝗲𝗻𝗱 𝗦𝗦 𝗔𝗳𝘁𝗲𝗿 𝗣𝗮𝘆𝗺𝗲𝗻𝘁⚠️ 𝗔𝗳𝘁𝗲𝗿 𝘀𝗲𝗻𝗱𝗶𝗻𝗴 𝗮 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁 𝗽𝗹𝗲𝗮𝘀𝗲 𝗴𝗶𝘃𝗲 𝘂𝘀 𝘀𝗼𝗺𝗲 𝘁𝗶𝗺𝗲 𝘁𝗼 𝗮𝗱𝗱 𝘆𝗼𝘂 𝗶𝗻 𝘁𝗵𝗲 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 𝘃𝗲𝗿𝘀𝗶𝗼𝗻｡｡✨ ᴜᴘɪ ɪᴅ - <code>9106193037@ibl</code>\n\nᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan\n\n💢 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ\n\n‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</b>')
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
