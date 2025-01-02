@@ -26,7 +26,7 @@ auth_users = [int(user) if id_pattern.search(user) else user for user in environ
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002399750144'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002338765286'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002046155403').split()]  # For Multiple Id Use One Space Between Each.
@@ -55,7 +55,7 @@ INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002338165303')).split()]  # For Multiple Id Use One Space Between Each.
 
 # This Channel Is For Delete Index File, Forward Your File In This Channel Which You Want To Delete Then Bot Automatically Delete That File From Database.
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0-1002445547306').split()]  # For Multiple Id Use One Space Between Each.
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002445547306').split()]  # For Multiple Id Use One Space Between Each.
 
 
 # MongoDB information
@@ -86,7 +86,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'MZAUTOFILTER') # Publi
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movies_Tv_Serial_Request')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+iLsXNAsaEwxjN2Nl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ALL_TV_SERIAL_BACKUP')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Tv_Serial_Search_Group') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/mimam_officialx')
