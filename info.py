@@ -111,8 +111,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'runURL.in')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '2819a959174f367d970d3fab75634fa88f8b8f25')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'www.shortner.in')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '931dc3d2b822191032f43d523eae9de35fcc808c')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/MRN_Tutorial/1671')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
