@@ -1,5 +1,5 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
+# Don't Remove Credit @mimam_officialx
+# Subscribe YouTube Channel For Amazing Bot @mimam_officialx
 # Ask Doubt on https://t.me/mimam_ripper
 
 
