@@ -89,7 +89,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'MZAUTOFILTER') # Publi
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+iLsXNAsaEwxjN2Nl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ALL_TV_SERIAL_BACKUP')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Tv_Serial_Search_Group') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/mimam_officialx')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Movies_Tv_Serial_Request')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
