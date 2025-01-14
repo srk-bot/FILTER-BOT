@@ -167,21 +167,21 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     
     STATUS_TXT = """<b><blockquote>⍟───[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]───⍟</blockquote>
 
-USERS DB :-
+🪩 USERS DB :-
 👨‍👦‍👦 Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 💭 Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 
-FILE FIRST DB :-
+⚙️ FILE FIRST DB :-
 📚 Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 🛢️ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 💼 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 
-FILE SECOND DB :-
+⚙️ FILE SECOND DB :-
 📚 Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 🛢️ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 💼 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 
-OTHER DB :-
+⚙️ OTHER DB :-
 🛢️ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 💼 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
     
