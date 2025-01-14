@@ -166,7 +166,6 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 💼 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
     
     STATUS_TXT = """<b><blockquote>⍟───[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]───⍟</blockquote>
-
 🪩 USERS DB :-
 👨‍👦‍👦 Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 💭 Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
@@ -183,7 +182,8 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
 ⚙️ OTHER DB :-
 🛢️ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-💼 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
+💼 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>
+<b><blockquote>•❅─────✧❅✦❅✧─────❅•</blockquote>"""
     
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
