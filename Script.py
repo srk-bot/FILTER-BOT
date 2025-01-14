@@ -166,9 +166,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 💼 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
     
     STATUS_TXT = """<b><blockquote>⍟───[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]───⍟</blockquote>
-🪩 USERS DB :-
+🎭 USERS DB :-
 👨‍👦‍👦 Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-💭 Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
+♻️ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 
 ⚙️ FILE FIRST DB :-
 📚 Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
