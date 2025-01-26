@@ -166,7 +166,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 💼 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
     
     STATUS_TXT = """<b><blockquote>⍟───[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]───⍟</blockquote>
-🛠 USERS DB :-
+🛠 USERS DB :  Total Files From All DBs: <code>{}</code>
 👨‍👦‍👦 Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 💌 Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 
