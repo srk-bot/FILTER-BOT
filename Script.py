@@ -253,9 +253,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>❤‍🔥𓊈𝖒𝖗𝖓_𝖗𝖎𝖕𝖕𝖊𝖗𓊉 : {file_name}</b>
-
-<b> Size ⚙️: {file_size}</b>""" 
+    CAPTION = """<b><a href="https://t.me/+STRuLEmZ7AgxZjA1">{file_name}</a></b>\n\n•─────•─────────•─────•\n<b>✯ 𝖩𝗈𝗂𝗇 ➥ <a https://t.me/+STRuLEmZ7AgxZjA1>[🍿 @MRN_RIPPER 🍿 ]\n✯ 𝖩𝗈𝗂𝗇 ➥  [🍿 @MRN_MOVIES_SEARCH_GROUP 🍿]\n•─────•─────────•─────•</a></b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
