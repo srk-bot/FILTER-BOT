@@ -77,8 +77,8 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in week, day, month.
-PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/fc36407b933650b3fe677-b4faaa1caae7741709.jpg') # payment code picture url.
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>💰💳𝐇𝐞𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐏𝐥𝐚𝐧𝐬 💲  \n\n- ✅New Plans For TV Shows Premium Channel😍\n\n[MRN Premium Tv, 🎞All Indian Hindi TV Shows ]\n- ━━━━━━━━━━━━━━━━━━━━\n\n- ⚡️>>> Rs. 50 -  1 Week\n- ⚡️>>> Rs. 100 -  1 Months\n- ⚡️>>> Rs. 200 - 2 Months\n- ⚡️>>> Rs. 300 -  3 Months\n- ⚡️>>> Rs. 400 -  4 Months\n- ⚡️>>> Rs. 500 -  5 Months\n\n✨ᴜᴘɪ ɪᴅ ➢ <code>md-muzaffar-imam@axl</code> \n\n🚨These Prices Are Now Permanent Plans.\n\n✅1-Day Demo/Trial Also Available Here.\n\nOTT: Hotstar, ZEE5, JioCinema, SONYLIV, DangalPlay,\ShemarooMe, EpicOn Etc. all OTT Movies and Webseries available\n\n⚡️Grab It Fast ASAP😘 [💯Trusted]\n\n👨‍💻Contact Us @mimam_officialx\n\n⚠️𝗦𝗲𝗻𝗱 𝗦𝗦 𝗔𝗳𝘁𝗲𝗿 𝗣𝗮𝘆𝗺𝗲𝗻𝘁⚠️ 𝗔𝗳𝘁𝗲𝗿 𝘀𝗲𝗻𝗱𝗶𝗻𝗴 𝗮 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁 𝗽𝗹𝗲𝗮𝘀𝗲 𝗴𝗶𝘃𝗲 𝘂𝘀 𝘀𝗼𝗺𝗲 𝘁𝗶𝗺𝗲 𝘁𝗼 𝗮𝗱𝗱 𝘆𝗼𝘂 𝗶𝗻 𝘁𝗵𝗲 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 𝘃𝗲𝗿𝘀𝗶𝗼𝗻｡｡</b>')
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://files.catbox.moe/55y5et.jpg') # payment code picture url.
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>💰💳𝐇𝐞𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐏𝐥𝐚𝐧𝐬 💲  \n\n ✅New Plans For TV Shows Premium Channel😍\n\n[MRN Premium Tv, 🎞All Indian Hindi TV Shows ]\n- ━━━━━━━━━━━━━━━━━━━━\n\n ⚡️>>> Rs. 50 -  1 Week\n ⚡️>>> Rs. 100 -  1 Months\n ⚡️>>> Rs. 200 - 2 Months\n ⚡️>>> Rs. 300 -  3 Months\n ⚡️>>> Rs. 400 -  4 Months\n ⚡️>>> Rs. 500 -  5 Months\n\n✨ᴜᴘɪ ɪᴅ ➢ <code>md-muzaffar-imam@axl</code> \n\n🚨These Prices Are Now Permanent Plans.\n\n✅1-Day Demo/Trial Also Available Here.\n\nOTT: Hotstar, ZEE5, JioCinema, SONYLIV, DangalPlay,\ShemarooMe, EpicOn Etc. all OTT Movies and Webseries available\n\n⚡️Grab It Fast ASAP😘 [💯Trusted]\n\n👨‍💻Contact Us @mimam_officialx\n\n⚠️𝗦𝗲𝗻𝗱 𝗦𝗦 𝗔𝗳𝘁𝗲𝗿 𝗣𝗮𝘆𝗺𝗲𝗻𝘁⚠️ 𝗔𝗳𝘁𝗲𝗿 𝘀𝗲𝗻𝗱𝗶𝗻𝗴 𝗮 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁 𝗽𝗹𝗲𝗮𝘀𝗲 𝗴𝗶𝘃𝗲 𝘂𝘀 𝘀𝗼𝗺𝗲 𝘁𝗶𝗺𝗲 𝘁𝗼 𝗮𝗱𝗱 𝘆𝗼𝘂 𝗶𝗻 𝘁𝗵𝗲 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 𝘃𝗲𝗿𝘀𝗶𝗼𝗻｡｡</b>')
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://pyaaraislamofficial:5p2Mf6v9iiqp1Bux@cluster0.d4gfw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Necessary If clone mode is true
@@ -111,9 +111,9 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'Modijiurl.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'ae0370d85f9b44cde2bacf43ab736e1930953888')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/MRN_Tutorial/1657')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'linkcents.com')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '97b4c035eaa8da4f8087584abd9f9030d33623d5')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/MRN_Tutorial/1807')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
