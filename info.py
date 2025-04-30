@@ -29,7 +29,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002338765286'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002268363111 -1002670141750').split()]  # For Multiple Id Use One Space Between Each.
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002670141750').split()]  # For Multiple Id Use One Space Between Each.
 
 # auth_channel means force subscribe channel.
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
@@ -52,7 +52,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 
 # This Channel Is For /batch command file store.
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002338165303')).split()]  # For Multiple Id Use One Space Between Each.
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002362080675')).split()]  # For Multiple Id Use One Space Between Each.
 
 # This Channel Is For Delete Index File, Forward Your File In This Channel Which You Want To Delete Then Bot Automatically Delete That File From Database.
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002445547306').split()]  # For Multiple Id Use One Space Between Each.
@@ -61,9 +61,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mohammadmuzaffarimambaturbari:sHXNxpKZ9PDjyYQr@cluster0.dqjjo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "mohammadmuzaffarimambaturbari")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mohammadmuzaffarimambaturbari')
 
-MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
+MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
 O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://muzaffarimammuhammad:muzaffarimammuhammad@cluster0.pr5n5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
@@ -78,7 +78,7 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in week, day, month.
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://files.catbox.moe/55y5et.jpg') # payment code picture url.
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>💰💳𝐇𝐞𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐏𝐥𝐚𝐧𝐬 💲  \n\n ✅New Plans For TV Shows Premium Channel😍\n\n[MRN Premium Tv, 🎞All Indian Hindi TV Shows ]\n- ━━━━━━━━━━━━━━━━━━━━\n\n ⚡️>>> Rs. 50 -  1 Week\n ⚡️>>> Rs. 100 -  1 Months\n ⚡️>>> Rs. 200 - 2 Months\n ⚡️>>> Rs. 300 -  3 Months\n ⚡️>>> Rs. 400 -  4 Months\n ⚡️>>> Rs. 500 -  5 Months\n\n✨ᴜᴘɪ ɪᴅ ➢ <code>md-muzaffar-imam@axl</code> \n\n🚨These Prices Are Now Permanent Plans.\n\n✅1-Day Demo/Trial Also Available Here.\n\nOTT: Hotstar, ZEE5, JioCinema, SONYLIV, DangalPlay,\ShemarooMe, EpicOn Etc. all OTT Movies and Webseries available\n\n⚡️Grab It Fast ASAP😘 [💯Trusted]\n\n👨‍💻Contact Us @mimam_officialx\n\n⚠️𝗦𝗲𝗻𝗱 𝗦𝗦 𝗔𝗳𝘁𝗲𝗿 𝗣𝗮𝘆𝗺𝗲𝗻𝘁⚠️ 𝗔𝗳𝘁𝗲𝗿 𝘀𝗲𝗻𝗱𝗶𝗻𝗴 𝗮 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁 𝗽𝗹𝗲𝗮𝘀𝗲 𝗴𝗶𝘃𝗲 𝘂𝘀 𝘀𝗼𝗺𝗲 𝘁𝗶𝗺𝗲 𝘁𝗼 𝗮𝗱𝗱 𝘆𝗼𝘂 𝗶𝗻 𝘁𝗵𝗲 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 𝘃𝗲𝗿𝘀𝗶𝗼𝗻｡｡</b>')
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>💰💳𝐇𝐞𝐲 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐏𝐥𝐚𝐧𝐬 💲  \n\n ✅New Plans For TV Shows Premium Channel😍\n\n[MRN Premium Tv, 🎞All Indian Hindi TV Shows ]\n━━━━━━━━━━━━━━━━━━━━\n\n ⚡️>>> Rs. 50 -  1 Week\n ⚡️>>> Rs. 100 -  1 Months\n ⚡️>>> Rs. 200 - 2 Months\n ⚡️>>> Rs. 300 -  3 Months\n ⚡️>>> Rs. 400 -  4 Months\n ⚡️>>> Rs. 500 -  5 Months\n\n✨ᴜᴘɪ ɪᴅ ➢ <code>md-muzaffar-imam@axl</code> \n\n🚨These Prices Are Now Permanent Plans.\n\n✅1-Day Demo/Trial Also Available Here.\n\nOTT: Hotstar, ZEE5, JioCinema, SONYLIV, DangalPlay,\ShemarooMe, EpicOn Etc. all OTT Movies and Webseries available\n\n⚡️Grab It Fast ASAP😘 [💯Trusted]\n\n👨‍💻Contact Us @mimam_officialx\n\n⚠️𝗦𝗲𝗻𝗱 𝗦𝗦 𝗔𝗳𝘁𝗲𝗿 𝗣𝗮𝘆𝗺𝗲𝗻𝘁⚠️ 𝗔𝗳𝘁𝗲𝗿 𝘀𝗲𝗻𝗱𝗶𝗻𝗴 𝗮 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁 𝗽𝗹𝗲𝗮𝘀𝗲 𝗴𝗶𝘃𝗲 𝘂𝘀 𝘀𝗼𝗺𝗲 𝘁𝗶𝗺𝗲 𝘁𝗼 𝗮𝗱𝗱 𝘆𝗼𝘂 𝗶𝗻 𝘁𝗵𝗲 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 𝘃𝗲𝗿𝘀𝗶𝗼𝗻｡｡</b>')
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://pyaaraislamofficial:5p2Mf6v9iiqp1Bux@cluster0.d4gfw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Necessary If clone mode is true
