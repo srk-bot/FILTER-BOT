@@ -1,4 +1,5 @@
 pyrofork==2.3.45
+pytz==2024.1
 aiofiles==24.1.0
 hachoir==3.3.0
 python-decouple==3.8
