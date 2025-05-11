@@ -21,8 +21,8 @@ hachoir
 python-decouple
 ffmpeg-python>=0.2.0
 youtube_search
-pymongo[srv]>=3.12,<4
-motor==2.5.1
+pymongo[srv]>=4.12.1
+motor==3.7.0
 marshmallow==3.14.1
 umongo==3.0.1
 PyLeaves==1.0.2
